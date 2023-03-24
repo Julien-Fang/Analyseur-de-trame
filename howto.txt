@@ -1,0 +1,10 @@
+Howto
+
+Afin de pouvoir lancer notre programme, il y a 2 solutions :
+
+1- Pour lancer notre programme la solution la plus simple est de lancer l'éxecutable Visualisateur.jar et sélectionner en fichier une trace. Cela va permettre l'affichage du visualisateur et également crée un fichier visualisateur.txt.
+Attention, le seul executable .jar ne suffit pas il faut avoir le dossier comprenant toutes les classes également.
+De plus le visualisateur peut avoir un problème lorsqu'il prend en paramètre un fichier, si c'est le cas il faut taper dans un terminal la commande
+java -jar Visualisateur
+
+2- Une autre solution plus pénible est de lancer Eclipse est de lancer avec JUnit ou Java Application la classe InterfaceGraphique.java, il est aussi important de noter que pour cette méthode il faut avoir la librairie JavaFX installé sur la machine.
